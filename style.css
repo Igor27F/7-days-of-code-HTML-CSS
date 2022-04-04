@@ -1,0 +1,47 @@
+* {
+    font-family: 'Inter';
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menuButton {
+    margin-right: 32px;
+    border: none;
+    color: #667085;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+#signup {
+    border-width: 1px;
+    background: #8E2424;    
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 44px;
+    width: 112px;
+    cursor: pointer;
+}
+#signup:hover {
+    background: #b83232;
+}
+#signup:active {
+    background: rgba(142, 36, 36, 0.8)
+}
+#logoText {
+    margin-left: 8px;
+    color: #3A404E;
+    font-size: 18px;
+    font-style: normal;
+}
