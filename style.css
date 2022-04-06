@@ -1,6 +1,19 @@
 * {
     font-family: 'Inter';
 }
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+h1 {
+      font-size: 48px;
+}
+h4 {
+      font-size: 16px;    
+}
+p {
+    font-size: 20px;
+}
 header {
     display: flex;
     align-items: center;
@@ -18,14 +31,13 @@ header {
 .menuButton {
     margin-right: 32px;
     border: none;
-    color: #667085;
+    color: var(--text-color);
     background: none;
-    font-size: 16px;
     cursor: pointer;
 }
 #signup {
     border-width: 1px;
-    background: #8E2424;    
+    background: var(--main-color);   
     color: white;
     font-size: 16px;
     border-radius: 8px;
@@ -44,4 +56,20 @@ header {
     color: #3A404E;
     font-size: 18px;
     font-style: normal;
+}
+.separator {
+    margin-top: 96px;
+}
+#firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutUs {
+    color: var(--main-color);
+}
+.topicDescription {
+    color: #667085;
+    width: 40%;
+    text-align: center;
 }
