@@ -5,9 +5,22 @@
     --text-color: #667085;
     --main-color: #8E2424;
 }
+.separator {
+    margin-top: 96px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
 h1 {
     font-size: 48px;
     font-weight: 600;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
 }
 h3 {
     font-size: 18px;
@@ -17,6 +30,10 @@ h4 {
     font-size: 16px;
     font-weight: 500;
     color: var(--text-color);
+}
+h5 {
+    font-size: 15px;
+    font-weight: 500;
 }
 p {
     font-size: 20px;
@@ -70,9 +87,6 @@ header {
     margin-left: 8px;
     color: #3A404E;
 }
-.separator {
-    margin-top: 96px;
-}
 #firstSection {
     display: flex;
     flex-direction: column;
@@ -83,7 +97,7 @@ header {
     font-weight: 600;
 }
 .topicDescription {
-    color: #667085;
+    color: var(--text-color);
     width: 40%;
     text-align: center;
 }
@@ -103,4 +117,24 @@ header {
     line-height: 72px;
     margin: 12px 0px;    
     font-weight: 600;
+}
+#vacancy {
+    color: var(--main-color);
+    margin: 20px auto;
+    border-radius: 16px;
+    border: 0 solid;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 5px;
+    cursor: pointer;
+}
+#vacancyTitle {
+    margin: auto;
+}
+#vacancyDescription {
+    font-size: 20px;
+    color: var(--text-color);
+    margin: 20px auto;
+}
+#vacancyImg {
+    margin: 20px auto;
 }
