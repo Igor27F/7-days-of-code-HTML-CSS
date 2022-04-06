@@ -6,10 +6,17 @@
     --main-color: #8E2424;
 }
 h1 {
-      font-size: 48px;
+    font-size: 48px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 500;
 }
 h4 {
-      font-size: 16px;    
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
 }
 p {
     font-size: 20px;
@@ -35,15 +42,23 @@ header {
     background: none;
     cursor: pointer;
 }
+#sign {
+    display: flex;
+    align-items: center;
+}
 #signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-width: 1px;
     background: var(--main-color);   
-    color: white;
-    font-size: 16px;
     border-radius: 8px;
     height: 44px;
     width: 112px;
     cursor: pointer;
+}
+#signupText {
+    color: white;
 }
 #signup:hover {
     background: #b83232;
@@ -54,8 +69,6 @@ header {
 #logoText {
     margin-left: 8px;
     color: #3A404E;
-    font-size: 18px;
-    font-style: normal;
 }
 .separator {
     margin-top: 96px;
@@ -67,9 +80,27 @@ header {
 }
 #aboutUs {
     color: var(--main-color);
+    font-weight: 600;
 }
 .topicDescription {
     color: #667085;
     width: 40%;
     text-align: center;
+}
+.metricsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.metric {
+    width: 15%;
+    font-weight: 400;
+    margin-right: 32px;
+}
+.metricNumber {
+    color: var(--main-color);
+    font-size: 60px;
+    line-height: 72px;
+    margin: 12px 0px;    
+    font-weight: 600;
 }
