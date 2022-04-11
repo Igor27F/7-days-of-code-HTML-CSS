@@ -35,6 +35,10 @@ h5 {
     font-size: 15px;
     font-weight: 500;
 }
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
 p {
     font-size: 20px;
 }
@@ -137,4 +141,47 @@ header {
 }
 #vacancyImg {
     margin: 20px auto;
+}
+.jobs {
+    width: 45%;
+    margin: auto;
+}
+.job {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 0 24px 28px;
+    margin: 16px auto;
+}
+.jobInformation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 15px;
+    align-content: space-between;
+}
+.jobDescription {
+    margin: 16px 16px;
+}
+#depositions {
+    color: var(--main-color);
+    margin: auto;
+}
+.deposition {
+    margin: 16px auto;
+    width: 70%;
+    text-align: center;
+}
+.collaboratorImg {
+    margin: auto;
+}
+.collaboratorName {
+    margin: 16px auto 8px auto;
+    font-weight: 600;
+    color: black;
+}
+.collaboratorRole {
+    margin: auto;
+    font-weight: 400;
+    color: var(--text-color);
 }
