@@ -67,7 +67,7 @@ header {
     display: flex;
     align-items: center;
 }
-#signup {
+.largeButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,13 +78,13 @@ header {
     width: 112px;
     cursor: pointer;
 }
-#signupText {
+.buttonText {
     color: white;
 }
-#signup:hover {
+.largeButton:hover {
     background: #b83232;
 }
-#signup:active {
+.largeButton:active {
     background: rgba(142, 36, 36, 0.8)
 }
 #logoText {
@@ -184,4 +184,38 @@ header {
     margin: auto;
     font-weight: 400;
     color: var(--text-color);
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footerSignup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+}
+#footerInput {
+    width: 360px;
+    border-radius: 8px;
+    height: 44px;
+    font-size: 16px;
+    padding-left: 24px;
+    margin-right: 16px;
+}
+#footerTitle {
+    margin: 0 auto;
+}
+#rights {
+    margin: auto;
+}
+#depositionWall {
+    background: rgba(196, 25, 25, 0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+    margin: auto;
+    width: 80%;
 }
